@@ -1,0 +1,27 @@
+   body{
+     background-color: lightblue;
+   }
+   .body-pass {
+     background-color: lightblue;
+   }
+   button {
+     padding: 8px 16px;
+     background-color: lightblue;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: 0.1s;
+   }
+   .notes {
+     background-color: lightblue;
+     font-family: Arial;
+   }
+   .choose-level {
+   background-color: lightblue;
+     font-family: Arial;
+   }
+   .notes2 {
+     background-color: lightblue;
+     font-family: Arial;
+   }
