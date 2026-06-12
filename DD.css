@@ -25,44 +25,16 @@
      background-color: lightblue;
      font-family: Arial;
    }
-     h2 {
-       border: none;
-       background-color:lightblue;
-       width:300;
-       height:20;
-       font-size:25;
-       text-align:center;
-       padding: 45;
-     }
-     h4 {
-       font-size: 25;
-     }
-     p {
-       background-color:white;
-       font-size:20;
-       font-family: Georgia;
-     }
-     li {
-       margin-bottom: 9px;
-       font-size: 15px;
-       color: black;
-       background-color:lightblue;
-       padding: 14px;
-     }
-     p {
-       font-family:Arial;
-     }
-     .subjects-grid {
-       list-style: none;
-       padding:12px;
-       margin: 20px 0;
-       display: grid;
-       grid-template-columns: repeat(2,1fr);
-       gap: 15px;
-     }
-     .button {
-       border: none;
-       padding:0px;
-       background-color: lightblue;
-       text-align: center;
-     }
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+}@media (min-width: 1025px) {
+    body {
+        background-color: lightgray;
+    }
+}

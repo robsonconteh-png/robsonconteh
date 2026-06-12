@@ -1,0 +1,36 @@
+     <!DOCTYPE html>
+<html>
+<head>
+  <a href="second page.html"></a>
+    <title>JSS PREPARATION</title>
+</head>
+<body class="body-pass">
+<h1>ROBSON'S E-LEARNING FORUM</h1>
+
+<h2>JUNIOR SECONDARY SCHOOL EXAMS PREPARATION</h2>
+
+<p>Enter the password to continue.</p>
+
+<input type="password" id="password" placeholder="Enter Password">
+
+<br><br>
+
+<button onclick="checkPassword()">
+    Open
+</button>
+
+<script>
+function checkPassword() {
+    let password = document.getElementById("password").value;
+
+    if (password === "Robson") {
+        window.location.href = "Second page.html";
+    } else {
+        alert("Incorrect Password");
+    }
+}
+</script>
+
+</body>
+</html>
+<link rel="stylesheet" href="DD.css">
