@@ -1,0 +1,70 @@
+   body{
+     background-color: lightblue;
+   }
+   .body-pass {
+     background-image: 
+     url(front-page.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no repeat;
+     height: 100%;
+     margin: 0;
+     min-height: 100vh;
+   }
+   button {
+     padding: 8px 16px;
+     background-color: lightblue;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: 0.1s;
+   }
+   .notes {
+     background-color: lightblue;
+     font-family: Arial;
+   }
+   .choose-level {
+   background-color: lightblue;
+     font-family: Arial;
+   }
+   .notes2 {
+     background-color: lightblue;
+     font-family: Arial;
+   }
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: lightblue;
+    }
+}@media (min-width: 1025px) {
+    body {
+        background-color: lightblue;
+    }
+}
+textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit; /* Keeps the font consistent with your page */
+    resize: vertical;    /* Allows the user to drag to make it even bigger */
+}
+
+/* Ensure the submit button doesn't get triggered by pressing Enter inside the box */
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.keywords {
+    margin-top: 5px;
+    font-size: 13px;
+    color: blue;
+}
+}

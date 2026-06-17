@@ -2,6 +2,8 @@
 <html>
 <head>
   <a href="second page.html"></a>
+  <link rel="manifest" href="manifest.json">
+
     <title>JSS PREPARATION</title>
 </head>
 <body class="body-pass">
@@ -24,13 +26,18 @@ function checkPassword() {
     let password = document.getElementById("password").value;
 
     if (password === "Robson") {
-        window.location.href = "Second page.html";
+        window.location.href = "Medium Landing page.html";
     } else {
         alert("Incorrect Password");
     }
 }
 </script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
 
 </body>
 </html>
-<link rel="stylesheet" href="DD.css">
+<link rel="stylesheet" href="SS.css">

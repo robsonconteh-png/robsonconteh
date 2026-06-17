@@ -1,0 +1,54 @@
+.container {
+  column-count: 2;
+  column-gap: 40px;
+}
+
+ol {
+  margin-left: 10px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+li {
+  break-inside: avoid;
+}
+
+body {
+  background-color: lightblue;
+  text-align: justify;
+  line-height: 25px;
+}
+ .letter{
+   font-weight: bold;
+ }
+ li::marker {
+  font-weight: bold;
+}
+button {
+     padding: 10px 18px;
+     background-color: lightblue;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: 0.1s;
+}
+  .vis {
+    text-align: center;
+  }
+  .LA{
+    background-image: 
+     url(front-page.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no repeat;
+     height: 100%;
+     margin: 0;
+     min-height: 100vh;
+  }
+  .taming{
+    line-height: 40px;
+  }
+  .seven{
+    line-height: 40px;
+  }
