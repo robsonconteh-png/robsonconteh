@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSS PREPARATION</title>
+
+  <link rel="stylesheet" href="SS.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="body-pass">
+
+<h1>ROBSON'S E-LEARNING FORUM</h1>
+
+<h2>JUNIOR SECONDARY SCHOOL EXAMS PREPARATION</h2>
+
+<p>Enter the password to continue.</p>
+
+<input type="password" id="password" placeholder="Enter Password">
+
+<br><br>
+
+<button onclick="checkPassword()">Open</button>
+
+<br><br>
+
+<!-- DOWNLOAD LINK -->
+<a href="robsons-edutech.apk" download>
+  Download My App
+</a>
+
+<script>
+function checkPassword() {
+    let password = document.getElementById("password").value;
+
+    if (password === "Robson") {
+        window.location.href = "Medium Landing page.html";
+    } else {
+        alert("Incorrect Password");
+    }
+}
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+}
+</script>
+
+</body>
+</html>
